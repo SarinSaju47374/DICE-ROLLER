@@ -1,0 +1,29 @@
+body{
+    margin:0;
+    border:0;
+    padding:0;
+    outline:0;
+    text-decoration:none;
+    list-style:none;
+    box-sizing: border-box;
+    background: rgb(0,26,36);
+    background: linear-gradient(90deg, rgba(0,26,36,1) 7%, rgba(207,180,184,1) 50%, rgba(89,32,143,0.7679446778711485) 100%);
+}
+.container{
+    margin: 0 auto;
+    width:80%;
+    text-align: center;
+
+}
+h1{
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 5rem;
+
+}
+.dice__main{
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+.site__dice{
+    margin:4rem 0;
+}
